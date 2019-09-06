@@ -1,0 +1,43 @@
+/* shamefully pulled from "vals"'s answer on https://stackoverflow.com/questions/17954874/cross-fade-between-images-with-css-in-loop */
+
+
+.fadein img {
+
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 8s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#f1 {
+	z-index: 1;
+}
+#f2 {
+	z-index: 2;
+    -webkit-animation-delay: -6s;
+}
+#f3 {
+	z-index: 3;
+    -webkit-animation-delay: -4s;
+}
+#f4 {
+	z-index: 4;
+    -webkit-animation-delay: -2s;
+}

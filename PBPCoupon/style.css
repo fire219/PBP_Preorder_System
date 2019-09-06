@@ -1,0 +1,97 @@
+* {
+    margin:0;
+	padding:0;
+	
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #d3d3d3;
+}
+
+span {
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5vw;
+	width:100%;
+	display: inline-block;
+}
+
+input {
+	font-size:1vw;
+	background: #fafafa;
+	margin: .5vw;
+	padding: .3vw;
+	border: 0px solid #bbbbbb;
+	border-left: 3px solid #bbbbbb;
+}
+
+.floater {
+	margin: auto;
+	width: 50%;
+	min-height: 60%;
+	background-color: #ffffff;
+	padding: 1.5vw;
+	border-radius: 1vw;
+	margin-top: 2vw;
+}
+
+.topimage {
+	width: 100%;
+	height:8vw;
+	background: url(forum_header2.png);
+	background-size:contain;
+	top:0px;
+	left:0px;
+}
+
+.header {
+	width: 100%;
+	left:0px;
+	background-color: #2969b1;
+	overflow: hidden;
+	padding-top: .5vw;
+	padding-bottom: .5vw;
+}
+	
+
+.pineimg {
+	display:inline;
+	margin: 1vw;
+	margin-left: 1%;
+	margin-right: 0%;
+	max-width: 30%; 
+	height: auto;
+	border-radius: 2vw;
+}
+
+.navimage {
+	width:10vw;
+	height: auto;
+	margin-left: 3vw;
+	vertical-align: middle;
+	margin-top:3vw;
+	}
+
+.blueblock {
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 2%;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	height: auto;
+	background: #2969b1;
+	border-radius: 1vw;
+}
+	
+.button {
+	background-color: #3498db;
+	padding: 2%;
+	margin-bottom: 5%;
+}
+
+.button:hover {
+	background-color: #2488cb;
+}
+	
